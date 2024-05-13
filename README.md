@@ -1,4 +1,4 @@
-### Synopsis
+### V-pipe Synopsis
 This project details my understanding and tinkering with V-pipe.
 
 The more detailed files are contained within the `documentation` folder.
