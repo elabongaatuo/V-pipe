@@ -1,0 +1,21 @@
+general:
+    virus_base_config: sars-cov-2
+    snv_caller: lofreq
+    
+
+input:
+    samples_file: samples.tsv
+
+output:
+    datadir: samples/
+
+    trim_primers: false
+    # see: config/README.md#amplicon-protocols
+    snv: true
+    local: false
+    global: false
+    visualization: false
+    diversity: false
+    QA: false
+    upload: false
+    dehumanized_raw_reads: false

@@ -1,0 +1,4 @@
+Executing lofreq filter -i /tmp/lofreq2-call-dyn-bonf.ZTyAng -o samples/SRR10903401/20240505/variants/SNVs/snvs.vcf --snvqual-thresh 20 --indelqual-thresh 20
+Number of substitution tests performed: 0
+Number of indel tests performed: 0
+Successful exit.

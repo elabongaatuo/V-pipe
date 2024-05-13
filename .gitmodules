@@ -1,0 +1,3 @@
+[submodule "V-pipe"]
+	path = V-pipe
+	url = https://github.com/cbg-ethz/V-pipe

@@ -1,0 +1,4 @@
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem -t 1 -o samples/SRR10903401/20240505/alignments/tmp_aln.sam /home/ella/v-pipe/vp-analysis/V-pipe/workflow/../resources/sars-cov-2/NC_045512.2.fasta samples/SRR10903401/20240505/preprocessed_data/R1.fastq.gz samples/SRR10903401/20240505/preprocessed_data/R2.fastq.gz
+[main] Real time: 2.849 sec; CPU: 0.971 sec

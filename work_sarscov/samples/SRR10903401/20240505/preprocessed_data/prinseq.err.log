@@ -1,0 +1,18 @@
+Use of uninitialized value $fhmappings in unlink at /home/ella/v-pipe/vp-analysis/work_sarscov/.snakemake/conda/8ed6dc248a4d1e06c6d534416e88c282_/bin/prinseq-lite.pl line 1833.
+Input and filter stats:
+	Input sequences (file 1): 476,632
+	Input bases (file 1): 71,758,102
+	Input mean length (file 1): 150.55
+	Input sequences (file 2): 476,632
+	Input bases (file 2): 71,807,572
+	Input mean length (file 2): 150.66
+	Good sequences (pairs): 0
+	Good sequences (singletons file 1): 0 (0.00%)
+	Good sequences (singletons file 2): 0 (0.00%)
+	Bad sequences (file 1): 476,632 (100.00%)
+	Bad bases (file 1): 71,758,102
+	Bad mean length (file 1): 150.55
+	Bad sequences (file 2): 0 (0.00%)
+	Sequences filtered by specified parameters:
+	trim_qual_left: 180134
+	min_len: 773130

@@ -1,0 +1,5 @@
+*.sh
+work_sarscov/.snakemake/
+mambaforge/
+work/
+Mambaforge-Linux-x86_64.sh

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# shellcheck disable=SC1091
+. /home/ella/v-pipe/vp-analysis/mambaforge/bin/activate 'base'
+exec -a "$0" snakemake -s "../V-pipe/workflow/Snakefile" --use-conda "$@"

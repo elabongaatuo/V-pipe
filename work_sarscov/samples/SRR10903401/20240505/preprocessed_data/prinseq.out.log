@@ -1,0 +1,20 @@
+The length cutoff is: 200
+[prinseq-lite-0.20.4] [05/06/2024 19:05:37] Executing PRINSEQ with command: "perl prinseq-lite.pl -fastq samples/SRR10903401/20240505/extracted_data/R1.fastq -fastq2 samples/SRR10903401/20240505/extracted_data/R2.fastq -out_format 3 -trim_qual_right 30 -trim_qual_left 30 -trim_qual_type min -trim_qual_rule lt -trim_qual_window 10 -trim_qual_step 1 -log samples/SRR10903401/20240505/preprocessed_data/prinseq.out.log -min_len 200 -min_qual_mean 30 -ns_max_n 4 -out_good samples/SRR10903401/20240505/preprocessed_data/R -out_bad null"
+[prinseq-lite-0.20.4] [05/06/2024 19:05:37] Parsing and processing input data: "samples/SRR10903401/20240505/extracted_data/R1.fastq" and "samples/SRR10903401/20240505/extracted_data/R2.fastq"
+[prinseq-lite-0.20.4] [05/06/2024 19:06:52] Done parsing and processing input data
+[prinseq-lite-0.20.4] [05/06/2024 19:06:52] Input sequences (file 1): 476,632
+[prinseq-lite-0.20.4] [05/06/2024 19:06:52] Input bases (file 1): 71,758,102
+[prinseq-lite-0.20.4] [05/06/2024 19:06:52] Input mean length (file 1): 150.55
+[prinseq-lite-0.20.4] [05/06/2024 19:06:52] Input sequences (file 2): 476,632
+[prinseq-lite-0.20.4] [05/06/2024 19:06:52] Input bases (file 2): 71,807,572
+[prinseq-lite-0.20.4] [05/06/2024 19:06:52] Input mean length (file 2): 150.66
+[prinseq-lite-0.20.4] [05/06/2024 19:06:52] Good sequences (pairs): 0
+[prinseq-lite-0.20.4] [05/06/2024 19:06:52] Good sequences (singletons file 1): 0 (0.00%)
+[prinseq-lite-0.20.4] [05/06/2024 19:06:52] Good sequences (singletons file 2): 0 (0.00%)
+[prinseq-lite-0.20.4] [05/06/2024 19:06:52] Bad sequences (file 1): 476,632 (100.00%)
+[prinseq-lite-0.20.4] [05/06/2024 19:06:52] Bad bases (file 1): 71,758,102
+[prinseq-lite-0.20.4] [05/06/2024 19:06:52] Bad mean length (file 1): 150.55
+[prinseq-lite-0.20.4] [05/06/2024 19:06:52] Bad sequences (file 2): 0 (0.00%)
+[prinseq-lite-0.20.4] [05/06/2024 19:06:52] Sequences filtered by specified parameters:
+[prinseq-lite-0.20.4] [05/06/2024 19:06:52] trim_qual_left: 180134
+[prinseq-lite-0.20.4] [05/06/2024 19:06:52] min_len: 773130
